@@ -4,8 +4,7 @@
 # Строка 3"""
 # print(x1)
 
-# name_1 = "глеб"
-# name_2 = "кирилл"
+# name_1 = "глеб"\
 # name_3 = "Паша"
 #
 # bratva = [name_1, name_2, name_3]
