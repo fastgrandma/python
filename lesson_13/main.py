@@ -63,30 +63,30 @@
 # set2 = set(lst2)
 #
 # inter = set1.intersection(set2)
-# print(f"общих чисел: {len(inter)}")
-# print(f"[Кол-во генераций]: {size}")
-# print(f"[минимальное значение]: {min(inter)}")
-# print(f"[ьаксимальное значение]: {max(inter)}")
-# inter1 = list(inter)
-# inter1.sort()
-# print(inter1)
-
-
-set1 = set()
-insert = ""
-while insert != "end"
-    insert = input("ввод: ")
-    if insert.lstrip("-").isdigit
-    if insert.isdigit():
-       if insert not in set1:
-          print("нет")
-          set1.add(insert)
-       else:
-          print("да")
-    elif insert == "end":
-        break
-    else:
-        print("")
+# # print(f"общих чисел: {len(inter)}")
+# # print(f"[Кол-во генераций]: {size}")
+# # print(f"[минимальное значение]: {min(inter)}")
+# # print(f"[ьаксимальное значение]: {max(inter)}")
+# # inter1 = list(inter)
+# # inter1.sort()
+# # print(inter1)
+#
+#
+# set1 = set()
+# insert = ""
+# while insert != "end"
+#     insert = input("ввод: ")
+#     if insert.lstrip("-").isdigit
+#     if insert.isdigit():
+#        if insert not in set1:
+#           print("нет")
+#           set1.add(insert)
+#        else:
+#           print("да")
+#     elif insert == "end":
+#         break
+#     else:
+#         print("")
 
 
 
