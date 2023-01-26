@@ -64,12 +64,12 @@ from random import choice
 # print(dic)
 
 # задача 3
-u = lambda a, b:a / b
-print(u(6, 3))
-u3 = lambda a, b:a // b
-print(u3(6,3))
-u4 = lambda a, b:a**b
-print(u4(6, 3))
-u5 = lambda a:-a if a < 0 else a
-# то мен
-print(u5(6, 3))
+# u = lambda a, b:a / b
+# print(u(6, 3))
+# u3 = lambda a, b:a // b
+# print(u3(6,3))
+# u4 = lambda a, b:a**b
+# print(u4(6, 3))
+# u5 = lambda a:-a if a < 0 else a
+# # то мен
+# print(u5(6, 3))
