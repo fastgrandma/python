@@ -1,12 +1,11 @@
 import requests
 import random
-resp = requests.get("https://api.randomdatatools.ru/").json()
-print(resp)
 class User:
     def __init__(self):
         self.__lorem = ""
-        self.login = self.__data["login"]
-        self.__password = self.__data["password"]
-        self.imya = self.__data["imya"]
-        self.familiya = self.__data["Password"]
-        self.posts = []
+        self.__data = requests.get("https://api.randomdatatools.ru/").json()
+        self.login = self.__data["login"] if not log else log
+        self.__password = self.__data["password"] if not pas else pas
+        self.imya = self.__data["Firstname"] if not log else log
+        self.familiya = self.__data["Lastname"] if not log else log
+        self.posts = [self.__lorem[random.randint(0,35):random.randint(36, )]]
